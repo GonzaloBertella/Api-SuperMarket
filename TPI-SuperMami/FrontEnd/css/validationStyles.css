@@ -1,0 +1,47 @@
+.form__message {
+	background: #F66060;
+	padding: 0 15px;
+	border-radius: 3px;
+	display: none;
+}
+.terms-message{
+	z-index: 100;
+	font-size: 16px;
+	display: none;
+	color: red;
+}
+.terms-message-active{
+	display: block;
+}
+.form__message-active {
+	display: block;
+}
+.form__validation-state {
+	z-index: 100;
+	font-size: 16px;
+	opacity: 0;
+}
+.form__success-message {
+	font-size: 14px;
+	color: #119200;
+	display: none;
+}
+.form__success-message-active {
+	display: block;
+}
+/* ----- -----  Estilos para Validacion ----- ----- */
+.form__group-correct .form__validation-state {
+	color: #1ed12d;
+	opacity: 1;
+}
+.form__group-incorrect .form-label {
+	color: #bb2929;
+}
+.form__group-incorrect .form__validation-state {
+	color: #bb2929;
+	opacity: 1;
+}
+.form__group-incorrect .form-input {
+	border: 3px solid #bb2929;
+}
+

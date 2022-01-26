@@ -1,0 +1,98 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://bootswatch.com/5/zephyr/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/c55fb45212.js" crossorigin="anonymous"></script>
+
+    <title>Reportes de Envios/Retiros</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-3" href="./home.html">
+                <i style="font-size:30px" class="text-white fas fa-home"></i>
+            </a>
+            <div class=" d-flex justify-content-between">
+                <label class="text-center align-self-center mb-1 mb-lg-1 mx-1 text-light border-bottom"
+                    id="userNav"></label>
+                <button id="closeSesion" onclick="goLogOut()" class="btn btn-outline-warning text-light mx-3">Cerrar
+                    Sesion</button>
+            </div>
+        </div>
+    </nav>
+
+    <div style="background-color:rgb(250, 217, 5);" class="d-flex justify-content-center shadow-lg p-3 mb-5 rounded">
+        <img class="col-lg-4 col-8" src="https://www.dinoonline.com.ar/super/images/logo-super-mami.png">
+    </div>
+    <div class="d-flex justify-content-center mt-5">
+        <h2>Reportes</h2>
+    </div>
+
+    <div id="loading" class="container text-center align-self-center">
+          <img src="https://i.pinimg.com/originals/ed/2e/c8/ed2ec87072fd6cc5c42149ae082b2d51.gif">      
+    </div>
+
+    <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            // $('#loading').hide();
+            var dataPoints = [];
+            var comando = {
+                year: parseInt(2021)
+            };
+            $.ajax({
+                url: "https://localhost:5001/Reports/GetPercentageShippingsByCompany",
+                type: "GET",
+                dataType: "json",
+                contentType: "application/json",
+                success: function (result) {
+                    $('#loading').show();
+                    for (let i = 0; i < result.return.$values.length; i++) {
+                        dataPoints.push({ y: result.return.$values[i].porcentaje, label: result.return.$values[i].nombreEmpresa });
+                    }
+                },
+                error: function (error) {
+                    console.log(error);
+                }
+            });
+
+            var chart = new CanvasJS.Chart("chartContainer", {
+                theme: "light2", // "light1", "light2", "dark1", "dark2"
+                exportEnabled: true,
+                animationEnabled: true,
+                title: {
+                    text: "Porcentaje de envíos por empresa"
+                },
+                data: [{
+                    type: "pie",
+                    startAngle: 25,
+                    toolTipContent: "<b>{label}</b>: {y}%",
+                    showInLegend: "true",
+                    legendText: "{label}",
+                    indexLabelFontSize: 16,
+                    indexLabel: "{label} - {y}%",
+                    dataPoints
+                }],
+            });
+            return new Promise(resolve => {
+                setTimeout(() => {
+                    resolve(chart.render());
+                    $('#loading').remove();
+                }, 2000);
+            });
+                
+        });
+    </script>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+    <script src="../js/keepLoggedIn.js"></script>
+    <script src="../js/getCompleteName.js"></script>
+</body>
+
+</html>

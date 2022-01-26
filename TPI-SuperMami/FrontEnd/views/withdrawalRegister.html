@@ -1,0 +1,150 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://bootswatch.com/5/zephyr/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/validationStyles.css">
+    <script src="https://kit.fontawesome.com/c55fb45212.js" crossorigin="anonymous"></script>
+
+    <title>Registrar Retiro</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <label class="text-center align-self-center mb-1 mb-lg-1 mx-1 text-light fs-6"
+                id="userNav"></label>
+            <button id="closeSesion" onclick="goLogOut()" class="btn btn-outline-warning text-light mx-3">Cerrar
+                Sesion</button>
+        </div>
+    </nav>
+    <div style="background-color:rgb(250, 217, 5);" class="d-flex justify-content-center shadow-lg p-3 mb-5 rounded">
+        <img class="col-lg-4 col-8" src="https://www.dinoonline.com.ar/super/images/logo-super-mami.png">
+    </div>
+    <div class="d-flex justify-content-center mt-5">
+    </div>
+    <div class="container bg-light">
+        <h2 class="p-3">Registrar Retiro</h2>
+        <div class="row">
+            <div id="form" class="col-lg-12 col-sm-12 row d-flex justify-content-center mt-5 ">
+                <div class="my-3">
+                    <div class="d-flex justify-content-center">
+                        <div class="col-12 col-lg-6 col-sm-10 mb" id="group__order">
+                            <div class="d-flex justify-content-between ">
+                                <label for="order" class="form-label pt-3">Nº de Pedido</label>
+                            </div>
+                           
+                            <div class="d-flex justify-content-center align-items-center">
+                                <input type="text" class="form-control form-input" name="order" id="order">
+                                <i class="form__validation-state m-1 fas fa-times-circle"></i>
+                                <button type="button" class="btn btn-outline-primary mb-2 mx" id="btnOrdenEntrega">Información de Pedido</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-3">
+                    <div class="d-flex justify-content-center">
+                        <div class="col-12 col-lg-6 col-sm-10 mb-3" id="group__branch">
+                            <label for="branch" class="form-label">Sucursal</label>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <select type="text" class="form-control form-input" name="branch"
+                                    id="branch"></select>
+                                <i class="form__validation-state m-1 fas fa-times-circle"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex my-3 justify-content-center">
+                    <div class="col-12 col-lg-6 col-sm-10 mb" id="group__volume">
+                        <label for="volume" class="form-label">Observaciones</label>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <input type="text" class="form-control form-input" name="volume" id="observaciones">
+                            <i class="form__validation-state m-1 fas fa-times-circle"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="d-flex my-3 justify-content-center">
+                    <div class="col-lg-4 col-sm-12 mb-2" id="group__volume">
+                        <label for="volume" class="form-label">Volumen (Cm x Cm x Cm)</label>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <input type="text" class="form-control form-input" name="volume" id="volume">
+                            <i class="form__validation-state m-1 fas fa-times-circle"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex my-3 justify-content-center">
+                    <div class="col-lg-4 col-sm-12 mb-2" id="group__bags">
+                        <label for="bags" class="form-label">N° de bolsas</label>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <input type="text" class="form-control form-input" name="bags" id="bags">
+                            <i class="form__validation-state m-1 fas fa-times-circle"></i>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="modal" id="ventanaModal" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Información de Pedido</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close" ></button>
+                            </div>
+                            <div class="modal-body">
+                                <table class="table table-dark table-stripe table-hover">
+                                    <tbody id="DeliveryOrderBody">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success"
+                                data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center my-3">
+                    <div class="form__message" id="form__message">
+                        <p class="text-center pt-3"><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor
+                            rellena el formulario
+                            correctamente.
+                        </p>
+                    </div>
+                     </div>
+                </div>
+                <div class="mb-5">
+                    <div class="col-12 col-lg-12 d-flex justify-content-center flex-column align-items-center">
+                        <button type="submit" class="btn btn-outline-dark col-12 col-lg-3 col-sm-10"
+                            id="btnAgregar">Registrar
+                            retiro</button>
+                    </div>
+                    <div>
+                        <p class="m-3 form__success-message text-center" id="form__success-message">Formulario
+                            enviado
+                            exitosamente!</p>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="../js/withdrawalRegister/getBranch.js"></script>
+    <script src="../js/withdrawalRegister/pickupRegister.js"></script>
+    <script src="../js/keepLoggedIn.js"></script>
+    <script src="../js/getCompleteName.js"></script>
+    <script src="../js/PickupRegister/DeliveryOrderPickUp.js"></script>
+    <script src="../js/withdrawalRegister/validations.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../js/withdrawalRegister/DeletePickup.js"></script>
+</body>
+
+</html>

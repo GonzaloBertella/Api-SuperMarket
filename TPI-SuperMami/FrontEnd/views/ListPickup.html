@@ -1,0 +1,197 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/5/zephyr/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../css/validationStyles.css" />
+    <link rel="stylesheet" href="../css/validationRol.css" />
+    <script
+      src="https://kit.fontawesome.com/c55fb45212.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Retiros</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <label
+          class="
+            text-center
+            align-self-center
+            mb-1 mb-lg-1
+            mx-1
+            text-light
+            fs-6
+          "
+          id="userNav"
+        ></label>
+        <button
+          id="closeSesion"
+          onclick="goLogOut()"
+          class="btn btn-outline-warning text-light mx-3"
+        >
+          Cerrar Sesion
+        </button>
+      </div>
+    </nav>
+    <div
+      style="background-color: rgb(250, 217, 5)"
+      class="d-flex justify-content-center shadow-lg p-3 mb-5 rounded"
+    >
+      <img
+        class="col-lg-4 col-8"
+        src="https://www.dinoonline.com.ar/super/images/logo-super-mami.png"
+      />
+    </div>
+    <div class="d-flex justify-content-center mt-5">
+      <a class="fs-1 text-success adminBack" id="adminBack" href="Home.html"
+        ><i class="fas fa-arrow-circle-left"></i
+      ></a>
+      <h2>Retiros</h2>
+    </div>
+    <div class="container bg-light">
+      <a href="withdrawalRegister.html" class="btn btn-primary"
+        >Agregar Retiro</a
+      >
+      <table class="table" border="0" id="table">
+        <thead>
+          <tr>
+            <th data-field="id">Codigo de Retiro</th>
+            <th data-field="numeroPedido" data-filter-control="">N° de pedido</th>
+            <th data-field="name" data-filter-control="">Observaciones</th>
+            <th data-field="price" data-filter-control="">Sucursal</th>
+            <th data-field="price" data-filter-control="">fecha</th>
+            <th data-field="peso">Estado</th>
+            <th data-field="Observaciones"></th>
+          </tr>
+        </thead>
+        <tbody id="cuerpoTabla"></tbody>
+      </table>
+      <div class="modal" id="ventanaModal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Actualizar Estado</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="alert alert-success">
+                <p id="Pregunta1">
+                  ¿Esta seguro que quiere cambiar el Estado a 'Listo Para
+                  Retirar' ?
+                </p>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-danger"
+                data-bs-dismiss="modal"
+              >
+                Cancelar
+              </button>
+              <button
+                type="button"
+                id="Aceptado"
+                class="btn btn-success"
+                data-bs-dismiss="modal"
+              >
+                Aceptar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal" id="ventanaModal2" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Cancelar</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="alert alert-danger">
+                <p id="Pregunta1">
+                  ¿Esta seguro que quiere cancelar el retiro?
+                </p>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-danger"
+                data-bs-dismiss="modal"
+              >
+                Cancelar
+              </button>
+              <button
+                type="button"
+                id="Aceptado2"
+                class="btn btn-success"
+                data-bs-dismiss="modal"
+              >
+                Aceptar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- <script>
+        $(document).ready(function () {
+
+            $("#Aceptado").click(function () {
+
+                
+                
+                /* else if ($("#enviado").hasClass('btn-warning')) {
+                     $('#ventanaModal').removeClass('btn-success').addClass('btn-default ');
+                     $(this).addClass('btn-default').removeClass('btn-success');
+                 }*/
+            })
+        }); -->
+    <!-- </script> -->
+    <script src="https://unpkg.com/bootstrap-table@1.19.1/dist/bootstrap-table.min.js"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.19.1/dist/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.19.1/dist/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/updateSending/getCompany.js"></script>
+    <script src="../js/updateSending/getStatus.js"></script>
+    <script src="../js/getCompleteName.js"></script>
+    <script src="../js/getDiferentRol.js"></script>
+    <script src="../js/withdrawalRegister/DeletePickup.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script>
+      $(function () {
+        $("#table").bootstrapTable();
+      });
+    </script>
+
+    <script src="../js/getCompleteName.js"></script>
+  </body>
+</html>

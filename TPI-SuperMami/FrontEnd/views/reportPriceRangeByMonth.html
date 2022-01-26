@@ -1,0 +1,201 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/5/zephyr/bootstrap.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/c55fb45212.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Reportes de Envios/Retiros</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-3" href="./home.html">
+          <i style="font-size: 30px" class="text-white fas fa-home"></i>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse row navbar-collapse" id="navbarNavDropdown">
+          <div class="navbar-nav d-flex justify-content-between">
+            <label
+              class="
+                text-center
+                align-self-center
+                mb-3 mb-lg-0
+                mx-1
+                text-light
+                border-bottom
+              "
+              id="userNav"
+            ></label>
+            <button
+              id="closeSesion"
+              onclick="goLogOut()"
+              class="btn btn-outline-warning text-light mx-3"
+            >
+              Cerrar Sesion
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      style="background-color: rgb(250, 217, 5)"
+      class="d-flex justify-content-center shadow-lg p-3 mb-5 rounded"
+    >
+      <img
+        class="col-lg-4 col-8"
+        src="https://www.dinoonline.com.ar/super/images/logo-super-mami.png"
+      />
+    </div>
+    <div class="d-flex justify-content-center mt-5">
+      <h2>Reportes</h2>
+    </div>
+
+    <div class="d-flex justify-content-center align-items-center text-left col-md-6">
+      <div>
+        <label for="year" class="form-label">Filtrar por año</label>
+        <div class="">
+          <div class="col-8">
+            <input
+            type="text"
+            class="form-control form-input"
+            name="year"
+            id="year"
+            value="2018"
+            />
+          </div>
+          <div class="mt-2">
+            <button class="btn btn-outline-dark" name="btnFiltrar" id="btnFiltrar">
+              Filtrar
+            </button>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    <div id="loading" class="container text-center align-self-center">
+      <img
+        src="https://i.pinimg.com/originals/ed/2e/c8/ed2ec87072fd6cc5c42149ae082b2d51.gif"
+      />
+    </div>
+    <div class="container">
+      <div id="chartContainer" style="height: 300px; width: 100%"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        llenarChart();
+        $("#btnFiltrar").click(function () {          
+          llenarChart();
+        });
+      });
+
+      function llenarChart() {
+        let year = $("#year").val();
+        var dataPoints = [];
+        var comando = {
+          year: parseInt(year),
+        };        
+
+        $.ajax({
+          url: "https://localhost:5001/Reports/GetPriceRangeByMonth",
+          type: "POST",
+          dataType: "json",
+          contentType: "application/json",
+          data: JSON.stringify(comando),
+          success: function (result) {
+            $("#loading").show();
+            var months = [
+              "Enero",
+              "Febrero",
+              "Marzo",
+              "Abril",
+              "Mayo",
+              "Junio",
+              "Julio",
+              "Agosto",
+              "Septiembre",
+              "Octubre",
+              "Noviembre",
+              "Diciembre",
+            ];
+            for (let i = 0; i < result.return.$values.length; i++) {
+              dataPoints.push({
+                x: i * 100,
+                y: [
+                  result.return.$values[i].facturacionMinima,
+                  result.return.$values[i].facturacionMaxima,
+                ],
+                label: months[result.return.$values[i].mesFacturacion - 1],
+              });
+            }
+          },
+          error: function (error) {
+            console.log(error);
+          },
+        });
+
+        var chart = new CanvasJS.Chart("chartContainer", {
+          animationEnabled: true,
+          exportEnabled: true,
+          title: {
+            text: "Rango de facturación por mes para un año en particular",
+          },
+          axisX: {
+            title: "Mes",
+            interval: 100,
+          },
+          axisY: {
+            title: "Facturación",
+            interval: 100,
+            prefix: "$",
+          },
+          data: [
+            {
+              type: "rangeBar",
+              showInLegend: true,
+              yValueFormatString: "$#0.#",
+              indexLabel: "{y[#index]}",
+              toolTipContent: "<b>{label}</b>: de {y[0]} a {y[1]}",
+              dataPoints,
+            },
+          ],
+        });
+        return new Promise((resolve) => {
+          setTimeout(() => {
+            resolve(chart.render());
+            $("#loading").remove();
+          }, 2000);
+        });
+      }
+    </script>
+    <script
+      type="text/javascript"
+      src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"
+    ></script>
+    <script src="../js/getCompleteName.js"></script>
+  </body>
+</html>

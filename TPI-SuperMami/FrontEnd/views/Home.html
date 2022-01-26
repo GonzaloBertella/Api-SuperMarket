@@ -1,0 +1,78 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://bootswatch.com/5/zephyr/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/c55fb45212.js" crossorigin="anonymous"></script>
+
+    <title>Home</title>
+</head>
+
+<body style="height: 100vh">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-3" href="./home.html">
+                <i style="font-size:30px" class="text-white fas fa-home"></i>
+            </a>
+            <div class=" d-flex justify-content-between">
+                <label class="text-center align-self-center mb-1 mb-lg-1 mx-1 text-light fs-6"
+                    id="userNav"></label>
+                <button id="closeSesion" onclick="goLogOut()" class="btn btn-outline-warning text-light mx-3">Cerrar
+                    Sesion</button>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <div style="background-color:rgb(250, 217, 5);"
+            class="d-flex justify-content-center shadow-lg p-3 mb-5 rounded">
+            <img class="col-lg-4 col-8" src="https://www.dinoonline.com.ar/super/images/logo-super-mami.png">
+        </div>
+        <div class="d-flex justify-content-center mt-3">
+            <h2>HOME</h2>
+        </div>
+    </div>
+    <div class="container mt-3" >
+        <div class="card-group">
+            <div class="card m-3" style="width: 18rem;">
+                <img class="card-img-top img-fluid" src="/images/pngegg (2).png"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <a href="ListShippings.html"
+                        class="btn btn-outline-dark d-grid gap-2 col-lg-12 col-sm-6 col-md-6 mx-auto">ENVÍOS</a>
+                </div>
+            </div>
+            <div class="card m-3" style="width: 18rem;">
+                <img class="card-img-top img-fluid" src="/images/REtiros 2.png"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <a href="ListPickup.html"
+                        class="btn btn-outline-dark d-grid gap-2 col-lg-12 col-sm-6 col-md-6 mx-auto">RETIROS</a>
+                </div>
+            </div>
+            <div class="card m-3" style="width: 18rem;">
+                <img class="card-img-top img-fluid" src="/images/Empresas.png"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <a href="companyRegistration.html"
+                        class="btn btn-outline-dark d-grid gap-2 col-lg-12 col-sm-6 col-md-6 mx-auto">EMPRESAS</a>
+                </div>
+            </div>
+            <div class="card m-3" style="width: 18rem;">
+                <img class="card-img-top img-fluid" src="/images/Reportes.png"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <a href="homeReports.html"
+                        class="btn btn-outline-dark d-grid gap-2 col-lg-12 col-sm-6 col-md-6 mx-auto">REPORTES</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="../js/keepLoggedIn.js"></script>
+    <script src="../js/getCompleteName.js"></script>
+</body>
+
+</html>

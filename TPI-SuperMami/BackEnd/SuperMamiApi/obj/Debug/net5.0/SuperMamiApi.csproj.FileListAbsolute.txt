@@ -1,0 +1,173 @@
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.pdb
+c:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.csprojAssemblyReference.cache
+c:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.AssemblyInfoInputs.cache
+c:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.AssemblyInfo.cs
+c:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.csproj.CoreCompileInputs.cache
+c:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.MvcApplicationPartsAssemblyInfo.cs
+c:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\appsettings.json
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\SuperMamiApi.exe
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\SuperMamiApi.deps.json
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\SuperMamiApi.runtimeconfig.json
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\SuperMamiApi.runtimeconfig.dev.json
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\SuperMamiApi.dll
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\ref\SuperMamiApi.dll
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\SuperMamiApi.pdb
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Npgsql.dll
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\staticwebassets\SuperMamiApi.StaticWebAssets.Manifest.cache
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\staticwebassets\SuperMamiApi.StaticWebAssets.xml
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\scopedcss\bundle\SuperMamiApi.styles.css
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.RazorTargetAssemblyInfo.cache
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.csproj.CopyComplete
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.dll
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\ref\SuperMamiApi.dll
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.pdb
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.genruntimeconfig.cache
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\appsettings.Development.json
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\appsettings.json
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\SuperMamiApi.exe
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\SuperMamiApi.deps.json
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\SuperMamiApi.runtimeconfig.json
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\SuperMamiApi.runtimeconfig.dev.json
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\SuperMamiApi.dll
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\ref\SuperMamiApi.dll
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\SuperMamiApi.pdb
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Humanizer.dll
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Newtonsoft.Json.dll
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Npgsql.dll
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.csproj.AssemblyReference.cache
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.AssemblyInfoInputs.cache
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.AssemblyInfo.cs
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.csproj.CoreCompileInputs.cache
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.MvcApplicationPartsAssemblyInfo.cs
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\staticwebassets\SuperMamiApi.StaticWebAssets.Manifest.cache
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\staticwebassets\SuperMamiApi.StaticWebAssets.xml
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\scopedcss\bundle\SuperMamiApi.styles.css
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.RazorTargetAssemblyInfo.cache
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.dll
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\ref\SuperMamiApi.dll
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.pdb
+c:\Users\Agus\Desktop\MSI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.genruntimeconfig.cache
+<<<<<<< HEAD
+C:\Users\Camilo Rissi\Desktop\SuperMamiAPI\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\linq2db.dll
+=======
+C:\Users\Usuario\Documents\GitHub\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.pdb
+>>>>>>> main
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\appsettings.json
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\SuperMamiApi.exe
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\SuperMamiApi.deps.json
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\SuperMamiApi.runtimeconfig.json
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\SuperMamiApi.runtimeconfig.dev.json
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\SuperMamiApi.dll
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\ref\SuperMamiApi.dll
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\SuperMamiApi.pdb
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\linq2db.dll
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Npgsql.dll
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.csproj.AssemblyReference.cache
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.AssemblyInfoInputs.cache
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.AssemblyInfo.cs
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.csproj.CoreCompileInputs.cache
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\staticwebassets\SuperMamiApi.StaticWebAssets.Manifest.cache
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\staticwebassets\SuperMamiApi.StaticWebAssets.xml
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\scopedcss\bundle\SuperMamiApi.styles.css
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.RazorTargetAssemblyInfo.cache
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.dll
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\ref\SuperMamiApi.dll
+C:\Users\Pc-Casa\Desktop\TUP\4° Cuatrimestre\Metodologia en sistemas\Tp Integrador\super-mami-entregas\TPI-MSI-Grupo5\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.genruntimeconfig.cache
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\appsettings.json
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\SuperMamiApi.exe
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\SuperMamiApi.deps.json
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\SuperMamiApi.runtimeconfig.json
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\SuperMamiApi.runtimeconfig.dev.json
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\SuperMamiApi.dll
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\ref\SuperMamiApi.dll
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\SuperMamiApi.pdb
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\Humanizer.dll
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\linq2db.dll
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\Npgsql.dll
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.csprojAssemblyReference.cache
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.AssemblyInfoInputs.cache
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.AssemblyInfo.cs
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.csproj.CoreCompileInputs.cache
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\obj\Debug\net5.0\staticwebassets\SuperMamiApi.StaticWebAssets.Manifest.cache
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\obj\Debug\net5.0\staticwebassets\SuperMamiApi.StaticWebAssets.xml
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\obj\Debug\net5.0\scopedcss\bundle\SuperMamiApi.styles.css
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.RazorTargetAssemblyInfo.cache
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.csproj.CopyComplete
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.dll
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\obj\Debug\net5.0\ref\SuperMamiApi.dll
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.pdb
+C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\TPI-MSI-Grupo5-main\TPI-MSI-Grupo5-main\BackEnd\SuperMamiApi\obj\Debug\net5.0\SuperMamiApi.genruntimeconfig.cache

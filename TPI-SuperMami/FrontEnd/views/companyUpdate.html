@@ -1,0 +1,138 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://bootswatch.com/5/zephyr/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/validationStyles.css">
+    <script src="https://kit.fontawesome.com/c55fb45212.js" crossorigin="anonymous"></script>
+    <title>Registrar Empresas</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-3" href="./home.html">
+                <i style="font-size:30px" class="text-white fas fa-home"></i>
+            </a>
+            <div class=" d-flex justify-content-between">
+                <label class="text-center align-self-center mb-1 mb-lg-1 mx-1 text-light fs-6"
+                    id="userNav"></label>
+                <button id="closeSesion" onclick="goLogOut()" class="btn btn-outline-warning text-light mx-3">Cerrar
+                    Sesion</button>
+            </div>
+        </div>
+    </nav>
+    <div style="background-color:rgb(250, 217, 5);" class="d-flex justify-content-center shadow-lg p-3 mb-5 rounded">
+        <img class="col-lg-4 col-8" src="https://www.dinoonline.com.ar/super/images/logo-super-mami.png">
+    </div>
+    <div class="d-flex justify-content-center mt-5">
+        <h1>Actualizar Empresa</h1>
+    </div>
+      
+        <div class='container ml-5 bg-light'>
+            <h3 class="p-3">Empresa a actualizar </h3>
+        
+            <div class='row g-0'>
+            <div class="col-lg-4 col-sm-12">
+                <div class="d-flex justify-content-center">
+                    <div class="col-12 col-lg-10 col-sm-10 mb-3" id="group__reason">
+                        <label for="reason" class="form-label">Razón social</label>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <input type="text" class="form-control form-input" disabled name="reason" id="reason">
+                            <i class="form__validation-state m-1 fas fa-times-circle"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="d-flex justify-content-center">
+                    <div class="col-12 col-lg-10 col-sm-10 mb-3" id="group__cuit">
+                        <label for="cuit" class="form-label">C.U.I.T</label>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <input type="text" class="form-control form-input" disabled name="cuit" id="cuit">
+                            <i class="form__validation-state m-1 fas fa-times-circle"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="d-flex justify-content-center">
+                    <div class="col-12 col-lg-10 col-sm-10 mb-3" id="group__salary">
+                        <label for="salary" class="form-label">Salario mensual</label>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <input type="text" class="form-control form-input" name="salary" id="salary"></input>
+                            <i class="form__validation-state m-1 fas fa-times-circle"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+           
+            <div class='row g-0'>
+            <hr>
+            <h3 class="p-3">Actualizar datos de Contacto</h3>           
+            <div class="col-lg-4 col-sm-12">
+                <div class="d-flex justify-content-center">
+                    <div class="col-12 col-lg-10 col-sm-10 mb-3" id="group__name">
+                        <label for="name" class="form-label">Nombre del representante</label>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <input type="text" class="form-control form-input" name="name" id="name">
+                            <i class="form__validation-state m-1 fas fa-times-circle"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>           
+            <div class="col-lg-4 col-sm-12">
+                <div class="d-flex justify-content-center">
+                    <div class="col-12 col-lg-10 col-sm-10 mb-3" id="group__email">
+                        <label for="email" class="form-label">Email</label>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <input type="email" class="form-control form-input" name="email" id="email">
+                            <i class="form__validation-state m-1 fas fa-times-circle"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                                                          
+            <div class="col-lg-4 col-sm-12">
+                <div class="d-flex justify-content-center">
+                    <div class="col-12 col-lg-10 col-sm-10 mb-3" id="group__phone">
+                        <label for="phone" class="form-label">Teléfono</label>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <input type="text" class="form-control form-input" name="phone" id="phone">
+                            <i class="form__validation-state m-1 fas fa-times-circle"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </div>            
+           
+     
+            <div class="d-flex justify-content-center">
+                <div class="mb-3 form__message" id="form__message">
+                    <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario
+                        correctamente.
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div
+                    class="col-12 col-lg-4 col-md-6 col-sm-6 py-5 d-flex justify-content-center flex-column align-content-center">
+                    <button type="" class="btn btn-outline-dark text-center" id="btnRegistrar">Actualizar empresa</button>
+                    <p class="m-3 form__success-message text-center" id="form__success-message">Empresa actualizada
+                        exitosamente!</p>
+                </div>
+            </div>        
+            </div>
+        </div> 
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../js/keepLoggedIn.js"></script>
+    <script src="../js/getCompleteName.js"></script>
+    <script src="../js/companyRegistration/insertRegistration.js"></script>
+</body>
+
+</html>
